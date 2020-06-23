@@ -1,0 +1,42 @@
+<!--
+  ~ Copyright 2014 Frakbot (Sebastiano Poggi and Francesco Pontillo)
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources>
+    <declare-styleable name="CreditsRollView">
+        <attr name="scrollPosition" format="float" />
+        <attr name="angle" format="float" />
+        <attr name="endScrollMultiplier" format="float" />
+        <attr name="distanceFromText" format="float" />
+    </declare-styleable>
+    <declare-styleable name="ShineButton">
+        <attr name="btn_color" format="color" />
+        <attr name="btn_fill_color" format="color" />
+        <attr name="shine_count" format="integer" />
+        <attr name="shine_turn_angle" format="float" />
+        <attr name="small_shine_offset_angle" format="float" />
+        <attr name="enable_flashing" format="boolean" />
+        <attr name="allow_random_color" format="boolean" />
+        <attr name="small_shine_color" format="color" />
+        <attr name="big_shine_color" format="color" />
+        <attr name="shine_animation_duration" format="integer" />
+        <attr name="click_animation_duration" format="integer" />
+        <attr name="shine_distance_multiple" format="float" />
+        <attr name="shine_size" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="PorterImageView">
+        <attr name="siShape" format="integer|reference" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,30 @@
+<resources>
+
+    <!--TextView样式-->
+    <style name="ContextTextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/sp_14</item>
+        <item name="android:textColor">@color/colorTextStyle</item>
+    </style>
+    <!--ImageView样式-->
+    <style name="HeadImageView">
+        <item name="android:layout_width">@dimen/dp_48</item>
+        <item name="android:layout_height">@dimen/dp_48</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+    <!--View样式-->
+    <style name="UnderlineView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/dp_0.5</item>
+        <item name="android:background">@color/colorView</item>
+    </style>
+    <style name="BlueTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/cornflower_blue</item>
+        <item name="colorPrimaryDark">@color/cornflower_blue_dark</item>
+        <item name="colorAccent">@color/cornflower_blue</item>
+    </style>
+
+
+</resources>

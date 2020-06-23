@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_48"
+        android:orientation="vertical"
+        android:id="@+id/rl_title_bar"
+        android:background="@color/white"
+        >
+
+        <TextView
+            android:id="@+id/tv_finshi"
+            style="@style/ContextTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/dp_12"
+            android:drawablePadding="@dimen/dp_8"
+            android:textSize="@dimen/sp_16" />
+
+        <TextView
+            android:id="@+id/tv_bar_title"
+            style="@style/ContextTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:textSize="@dimen/sp_18" />
+
+        <TextView
+            android:id="@+id/tv_bar_mune"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/dp_12"
+            android:drawablePadding="@dimen/dp_8"
+            android:textSize="@dimen/sp_16" />
+    </RelativeLayout>
+    <View
+        style="@style/UnderlineView"/>
+</LinearLayout>
